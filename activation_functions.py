@@ -1,7 +1,6 @@
 import numpy as np
 
 # all derivatives assume that x is already an output of the
-# respective activation function, except arctan, fuck arctan
 
 def identity(x, derivative=False):
     if not derivative:
